@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 119, 155);
+}
+.clockbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.text{
+    padding: 20px;
+    font-family: sans-serif;
+
+}
+#hour{
+    font-size: 70px;
+}
+#minutes{
+    font-size: 70px;
+}
+#seconds{
+    font-size: 70px;
+}
+#ampm{
+    font-size: 70px;
+}
